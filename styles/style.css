@@ -1,0 +1,513 @@
+h1{
+    font-family: 'Neonderthew', cursive;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 40px;
+}
+
+.banner {
+    /*border: 1px solid red;*/
+    width: 765px;
+    height: 500px;
+    margin: auto;
+    background-image: url(../Picture/bk-2.png);
+    background-position-y: 16px;
+    background-position-x: 166%;
+    background-size: 540px;
+    background-repeat: no-repeat;
+}
+
+nav{
+    /*border: 1px solid rebeccapurple;*/
+}
+
+nav .logo{
+    width:90px;
+    /*border: 1px solid blue;*/
+}
+
+nav ul{
+    /*border: 1px solid red;*/
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 20px;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+.banner_content{
+    /*border: 1px solid;*/
+    padding-top: 50px;
+}
+
+.banner_content .left{
+    /*border: 1px solid;*/
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding-top: 70px;
+}
+
+.banner_content .left h5{
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.banner_content .left h2{
+    font-weight: 550;
+    font-family: 'Rubik Microbe', cursive;
+    font-size: 50px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.banner_content .left h4{
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.banner_content .left .read_more{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    /*border: 1px solid purple;*/
+    padding: 10px 25px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 16%, rgba(253,29,29,1) 42%, rgba(252,176,69,1) 76%);
+    color: white;
+}
+
+.banner_content .right{
+    /*border: 1px solid;*/
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+}
+
+.banner_content .right img{
+    /*border: 1px solid rgb(11, 230, 230);*/
+    height: 275px;
+    padding-right: 0px;
+    padding-left: 3px;
+    padding-top: 12px;
+    padding-bottom: -10px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.rating{
+    /*border: 1px solid red;*/
+}
+
+.rating .one{
+   /* border: 1px solid;*/
+    display: inline-block;
+    text-align: center;
+    padding: 15px 22px;
+    background-color: rgb(240, 236, 236);
+    margin: 5px;
+}
+
+.rating .one h3{
+    background: #FF0000;
+    background: linear-gradient(to right, #FF0000 5%, #FFFF00 31%, #05C1FF 71%, #FFFF00 74%, #FF0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    margin: 0;  
+}
+
+.rating .one p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.rating .two{
+    /*border: 1px solid;*/
+    display: inline-block;
+    text-align: center;
+    padding: 15px 22px;
+    background-color: rgb(240, 236, 236);
+    margin: 5px;
+}
+
+.rating .two h3{
+    background: #FF0000;
+    background: linear-gradient(to right, #FF0000 5%, #FFFF00 31%, #05C1FF 71%, #FFFF00 74%, #FF0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    margin: 0;  
+}
+
+.rating .two p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.rating .three{
+    /*border: 1px solid;*/
+    display: inline-block;
+    text-align: center;
+    padding: 15px 22px;
+    background-color: rgb(240, 236, 236);
+    margin: 5px;
+}
+
+.rating .three p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.rating .three h3{
+    background: #FF0000;
+    background: linear-gradient(to right, #FF0000 5%, #FFFF00 31%, #05C1FF 71%, #FFFF00 74%, #FF0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    margin: 0;  
+}
+
+.middle_banner {
+    /*border: 1px solid red;*/
+    width: 765px;
+    height: 500px;
+    margin: auto;
+    background-image: url(../Picture/for_background-removebg-preview\ \(1\).png);
+    background-position-y: 9px;
+    background-position-x: -73%;
+    background-size: 533px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.middle_banner .left{
+    /*border: 1px solid;*/
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding-top: 70px;
+}
+
+.middle_banner .left img{
+    border-radius: 50%;
+}
+
+.middle_banner .right{
+    /*border: 1px solid;*/
+    display: inline-block;
+    width: 48%;
+    text-align: justify;
+    vertical-align: top;
+    margin-top: 140px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.middle_banner .right h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.middle_banner .right h2{
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.middle_banner .right p{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.middle_banner .right .download_CV{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    /*border: 1px solid purple;*/
+    padding: 10px 25px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 16%, rgba(253,29,29,1) 42%, rgba(252,176,69,1) 76%);
+    color: white;
+    margin-top: 50px;
+}
+
+.service {
+    /*border: 1px solid red;*/
+    width: 765px;
+    /*height: 500px;*/
+    margin: auto;
+    padding-bottom: 28px;
+}
+
+.service .heading{
+    /*font-family: sans-serif;*/
+    padding: 50px 15px;
+}
+
+.service .heading h6,
+.service .heading h4{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    list-style: 20px;
+    text-transform: uppercase;
+}
+
+.service .heading h4{
+    /*border: 1px solid;*/
+    font-size: 25px;
+    width: 250px;
+    margin-top: 15px;
+}
+
+.service .content .first{
+    /*border: 1px solid;*/
+    display: inline-block;
+    width: 32%;
+    margin: 0px 2.5px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: rgb(255, 248, 248);
+}
+
+.service .content .first img{
+    width: 80px;
+
+}
+
+.service .content .first h3{
+    font-size: 23px;
+}
+
+.footer{
+    border: 1px solid red;
+    background-color: rgb(29, 23, 23);
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.footer .footer_logo{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.footer ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+
+}
+
+.footer ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin: 10px;
+}
+
+.footer ul li a:hover{
+    color: red;
+}
+
+.blog{
+    /*border: 1px solid;*/
+    width: 765px;
+    /*height: 500px;*/
+    margin: auto;
+    padding-bottom: 28px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.blog .internal p{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 0px 20px;
+}
+
+.blog .internal h2{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin: 15px 20px;
+}
+
+.detail .shall{
+    /*border: 1px solid;*/
+    display: inline-block;
+    width: 32%;
+    margin: 0px 2.5px;
+    text-align: left;
+    font-family: sans-serif;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: rgb(255, 248, 248);
+}
+
+.detail .shall img{
+    width: 100%;
+}
+
+.blog .detail .shall a{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: 5px 0px;
+}
+
+/*.blog .detail .shall a .top{
+    position: absolute;
+    width: 50%;
+    height: 5px;
+    background-color: rgb(49, 233, 13);
+    top: 0%;
+    left: 50%;
+    padding: ;
+}*/
+
+.blog .detail .shall a .bottom{
+    position: absolute;
+    width: 50%;
+    height: 5px;
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 28%, rgba(252,176,69,1) 63%, rgba(131,58,180,1) 86%);
+    bottom: 0;
+}
+
+.blog .detail .shall .luck{
+    border: 1px solid red;
+    height: 150px;
+    margin-top: 7px;
+    position: relative;
+    background-color: green;
+}
+
+.blog .detail .shall .luck .tip{
+    width: 50px;
+    height: 50px;
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+    background-color: rgb(240, 9, 9);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.all_logo{
+    /*border: 1px solid;*/
+    width: 765px;
+    /*height: 500px;*/
+    margin: auto;
+    padding-bottom: 28px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+.all_logo img{
+    width: 120px;
+    margin: 10px;
+}
+
+ /*practice seasson here*/
+
+ .stag {
+    /*border: 1px solid red;*/
+    width: 765px;
+    /*height: 500px;*/
+    margin: auto;
+    padding-bottom: 28px;
+}
+
+.stag .primary{
+    /*font-family: sans-serif;*/
+    padding: 50px 15px;
+}
+
+.stag .primary p,
+.stag .primary h4{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    list-style: 20px;
+    text-transform: uppercase;
+}
+
+.stag .primary h4{
+    /*border: 1px solid;*/
+    font-size: 25px;
+    width: 250px;
+    margin-top: 15px;
+}
+
+.stag .second{
+    border: 1px solid red;
+}
+
+.stag .second h5,
+.stag .second p,
+.stag .second a,
+.stag .second span,
+.stag .second ul{
+    border: 1px solid rgb(10, 24, 219);
+    margin: 0;
+    padding: 0;
+}
+
+.stag .second h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.stag .second a,
+.stag .second span{
+    /*margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;*/
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
